@@ -35,10 +35,6 @@ public class Main2Activity extends Activity {
             }
         });
 
-        //acer comment test
-        //acer reinstall android studio
-
-
     }
 
 
