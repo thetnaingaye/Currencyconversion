@@ -60,3 +60,5 @@ public class Main2Activity extends Activity {
         return true;
     }
 }
+
+//test again on acer
