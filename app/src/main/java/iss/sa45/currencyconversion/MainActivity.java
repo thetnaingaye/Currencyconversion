@@ -65,6 +65,26 @@ public class MainActivity extends Activity {
             }
         });
 
+
+        Spinner sp = (Spinner) findViewById(R.id.spinner1);
+        sp.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                if(!t1.getText().toString().isEmpty())
+                {
+                    double f = getConversion();
+                    convert(t1,1/f,t2);
+
+                }
+
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
+
     }
 
 
